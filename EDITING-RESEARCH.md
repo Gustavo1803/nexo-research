@@ -4,6 +4,8 @@
 
 Open **manage-research.html** in your browser. The editor labels are in Spanish, and each paper has clearly marked English and Spanish summary fields.
 
+The public Research page has four categories: Publications, Working papers, Work in progress, and Outreach. It opens on Publications. Visitors can filter by topic and search within the selected category. Clearing the topic and search keeps that category selected.
+
 1. Select a paper from the list, or click **Agregar un trabajo** to add one.
 2. Enter the original title, all authors in citation order, and the status:
    - **Publicación**: published or accepted article.
@@ -26,6 +28,8 @@ The editor does not save directly to your website or GitHub. Closing the editor 
 ## Español
 
 Abre **manage-research.html** en tu navegador.
+
+La página pública de Investigación tiene cuatro categorías: Publicaciones, Documentos de trabajo, Trabajos en curso y Divulgación. Abre en Publicaciones. Los visitantes pueden filtrar por tema y buscar dentro de la categoría seleccionada. Limpiar el tema y la búsqueda mantiene esa categoría seleccionada.
 
 1. Selecciona un trabajo de la lista o pulsa **Agregar un trabajo**.
 2. Escribe el título original, los autores en el orden de la referencia y el **Estado**: publicación, documento de trabajo, trabajo en curso o divulgación.

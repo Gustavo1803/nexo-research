@@ -12,8 +12,8 @@ window.NEXO_PEOPLE = {
         "es": "Director del Grupo de Investigación NEXO · Profesor asistente, Facultad de Administración"
       },
       "bio": {
-        "en": "Gustavo studies transportation, supply chains, digital markets, and food trade. He holds a Ph.D. in Applied Economics and an M.S. in Statistics from the University of Illinois Urbana-Champaign. His work combines causal inference, field experiments, and computational data science.",
-        "es": "Gustavo investiga transporte, cadenas de suministro, mercados digitales y comercio de alimentos. Tiene un Ph.D. en Economía Aplicada y una maestría en Estadística de la University of Illinois Urbana-Champaign. Su trabajo combina inferencia causal, experimentos de campo y ciencia de datos computacional."
+        "en": "Gustavo is an Assistant Professor in the School of Management at Universidad de los Andes, in the Supply Chain Management & Technology academic area. He holds a Ph.D. in Applied Economics and an M.S. in Statistics from the University of Illinois Urbana-Champaign.\n\nHis research connects transportation economics, supply chains, digital markets, and food trade, using causal inference, field experiments, and computational data science.",
+        "es": "Gustavo es Profesor Asistente de la Facultad de Administración de la Universidad de los Andes, en el área académica de Supply Chain Management & Technology. Es Ph.D. en Economía Aplicada y M.S. en Estadística de la University of Illinois Urbana-Champaign.\n\nSu investigación conecta la economía del transporte, las cadenas de suministro, los mercados digitales y el comercio de alimentos mediante inferencia causal, experimentos de campo y ciencia de datos computacional."
       },
       "image": "assets/gustavo.jpg",
       "url": "https://administracion.uniandes.edu.co/profesor/gustavo-enrique-nino-chaparro/",

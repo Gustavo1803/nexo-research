@@ -31,7 +31,7 @@
     (window.NEXO_PEOPLE?.items||[]).filter(person=>person.category===category).forEach(person=>{
       const card=el('article','person-card');
       if(asset(person.image)){const image=el('img','person-photo');image.src=person.image;image.alt=(lang==='es'?'Retrato de ':'Portrait of ')+person.name;image.loading='lazy';card.append(image);}else{const initials=el('div','person-placeholder',person.name.split(' ').filter(Boolean).map(s=>s[0]).slice(0,2).join(''));initials.setAttribute('aria-hidden','true');card.append(initials);}
-      const body=el('div','person-body');body.append(el('p','eyebrow',local(person.role)),el('h2','',person.name));if(person.institution)body.append(el('p','person-institution',person.institution));if(local(person.bio))body.append(el('p','person-bio',local(person.bio)));
+      const body=el('div','person-body');body.append(el('p','eyebrow',local(person.role)),el('h2','',person.name));if(person.institution)body.append(el('p','person-institution',person.institution));local(person.bio).split(/\n+/).map(text=>text.trim()).filter(Boolean).forEach(text=>body.append(el('p','person-bio',text)));
       const links=el('div','person-links');if(safe(person.url))links.append(link(ui.website,person.url));if(safe(person.linkedin))links.append(link('LinkedIn',person.linkedin));if(safe(person.scholar))links.append(link('Google Scholar',person.scholar));const cv=safe(person.cv)||localPDF(person.cv);if(cv)links.append(link(ui.cv,cv));body.append(links);card.append(body);people.append(card);
     });
   }

@@ -24,10 +24,10 @@ window.NEXO_PROJECTS = {
         "es": "Un análisis de precios hoteleros, reseñas de huéspedes y datos de reservas para comprender el desempeño y apoyar un proyecto de turismo orientado a la sostenibilidad."
       },
       "abstract": {
-        "en": "This project connects pricing and guest feedback with evidence for hospitality decisions. The project description comes from Gustavo’s existing portfolio.",
-        "es": "El proyecto conecta los precios y la opinión de los huéspedes con evidencia para decisiones en turismo. La descripción proviene del portafolio existente de Gustavo."
+        "en": "This project connects pricing and guest feedback with evidence for hospitality decisions, analyzing hotel prices, guest reviews, and booking data to inform a sustainability-oriented hospitality project.",
+        "es": "El proyecto conecta los precios y la opinión de los huéspedes con evidencia para decisiones en turismo, analizando precios hoteleros, reseñas y datos de reservas para apoyar un proyecto orientado a la sostenibilidad."
       },
-      "url": "https://gustavo1803.github.io/portfolio/",
+      "url": "",
       "image": "assets/hospitality.svg",
       "methods": {
         "en": "Pricing analysis · Booking data · Guest reviews",
@@ -56,8 +56,8 @@ window.NEXO_PROJECTS = {
         "es": "Comparación de métodos estadísticos y de aprendizaje automático para pronosticar precios de la papa, conectando datos agrícolas y análisis de mercados."
       },
       "abstract": {
-        "en": "The original portfolio explores regularized regression, random forests, gradient boosting, Prophet, and LSTM approaches. This page presents the project scope; a current technical report can be added through the editor.",
-        "es": "El portafolio original explora regresiones regularizadas, bosques aleatorios, gradient boosting, Prophet y LSTM. Esta página presenta el alcance del proyecto; el editor permite agregar un informe técnico actualizado."
+        "en": "The project compares regularized regression, random forests, gradient boosting, Prophet, and LSTM approaches to forecasting potato prices, connecting agricultural data with market analysis.",
+        "es": "El proyecto compara regresiones regularizadas, bosques aleatorios, gradient boosting, Prophet y LSTM para pronosticar precios de la papa, conectando datos agrícolas con análisis de mercados."
       },
       "url": "",
       "image": "assets/agriculture.jpg",
@@ -88,8 +88,8 @@ window.NEXO_PROJECTS = {
         "es": "Un análisis hedónico de precios inmobiliarios en tres ciudades colombianas, que estudia la relación entre las características de los inmuebles y su valor de mercado."
       },
       "abstract": {
-        "en": "This project uses hedonic pricing to examine urban real estate markets. It is presented as past applied work from Gustavo’s portfolio.",
-        "es": "Este proyecto utiliza precios hedónicos para examinar los mercados inmobiliarios urbanos. Se presenta como trabajo aplicado previo del portafolio de Gustavo."
+        "en": "This project uses hedonic pricing to examine urban real estate markets across three Colombian cities, studying the relationship between property characteristics and market values.",
+        "es": "Este proyecto utiliza precios hedónicos para examinar los mercados inmobiliarios urbanos de tres ciudades colombianas, estudiando la relación entre las características de los inmuebles y su valor de mercado."
       },
       "url": "",
       "image": "assets/city.jpg",

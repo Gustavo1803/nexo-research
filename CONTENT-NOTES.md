@@ -16,16 +16,16 @@ News is curated in `areas-data.js`, not automatically refreshed. The digital-are
 
 ## Profile
 
-The degrees, methods, portrait, and social profile links come from [Gustavo’s existing website](https://gustavo1803.github.io/). The Assistant Professor title, Supply Chain Management & Technology area, and `ge.nino183@uniandes.edu.co` email were checked against the [Uniandes academic-area directory](https://administracion.uniandes.edu.co/en/faculty/academic-areas/supply-chain-management-technology/) and [faculty directory](https://administracion.uniandes.edu.co/profesores/). The university affiliation is also explicitly requested by the user and appears in both language versions. The official university logo source is documented above.
+The degrees, methods, portrait, and social profile links come from Gustavo’s existing website (archival source). The Assistant Professor title, Supply Chain Management & Technology area, and `ge.nino183@uniandes.edu.co` email were checked against the [Uniandes academic-area directory](https://administracion.uniandes.edu.co/en/faculty/academic-areas/supply-chain-management-technology/) and [faculty directory](https://administracion.uniandes.edu.co/profesores/). The university affiliation is also explicitly requested by the user and appears in both language versions. The official university logo source is documented above.
 
 Gustavo’s academic-profile link now points to his [Universidad de los Andes faculty profile](https://administracion.uniandes.edu.co/profesor/gustavo-enrique-nino-chaparro/), verified on October 2, 2026. His homepage and Team entry also link to the existing LinkedIn and Google Scholar profiles, and the supplied local CV PDF.
 
-The research collection, including working papers and projects in progress, comes from [the existing publication list](https://gustavo1803.github.io/publications/). The mobility paper is labeled accepted, as that page states. Confirm the final publication status, complete author lists, and citations before launch. A work in progress is not described as a completed publication and has an email action when there is no public manuscript.
+The research collection, including working papers and projects in progress, comes from the existing publication list (archival source). The mobility paper is labeled accepted, as that page states. Confirm the final publication status, complete author lists, and citations before launch. A work in progress is not described as a completed publication and has an email action when there is no public manuscript.
 
 Specific research sources:
 
-- [Freight-trucking study and summary](https://gustavo1803.github.io/publication/truck_job)
-- [Mobility experiment and summary](https://gustavo1803.github.io/publication/ridet)
+- Freight-trucking study and summary (archival source)
+- Mobility experiment and summary (archival source)
 - [Food Policy publisher link](https://www.sciencedirect.com/science/article/pii/S0306919226000187)
 - [Cut-flower trade perspective](https://farmdocdaily.illinois.edu/2025/02/valentines-day-and-the-gains-from-agricultural-trade-cut-flowers-in-the-us.html)
 
@@ -35,7 +35,7 @@ Research-area descriptions are based on the supplied topics and profile. Add act
 
 ## Visual assets
 
-- `assets/gustavo.jpg`: [existing portrait](https://gustavo1803.github.io/images/photo_2.jpg).
+- `assets/gustavo.jpg`: existing portrait (archival source).
 - `assets/port.jpg`: [Unsplash source image](https://images.unsplash.com/photo-1494412519320-aa613dfb7738). A freight-terminal photograph, used as illustrative imagery.
 - `assets/city.jpg`: [Unsplash source image](https://images.unsplash.com/photo-1519501025264-65ba15a82390). A city photograph, used as illustrative imagery rather than a depiction of the experiment location.
 - `assets/agriculture.jpg`: [Unsplash source image](https://images.unsplash.com/photo-1500382017468-9049fed747ef). A rural landscape, used as illustrative imagery rather than research-site evidence.

@@ -1,6 +1,6 @@
 # Collaborator profiles and portrait sources
 
-The Collaborators page lists coauthors from Gustavo’s [research catalog](https://gustavo1803.github.io/publications/), existing work in progress, and Gustavo’s confirmed additions. The Team page contains Gustavo only. External coauthors are not presented as NEXO staff.
+The Collaborators page lists coauthors from Gustavo’s research catalog (archival source), existing work in progress, and Gustavo’s confirmed additions. The Team page contains Gustavo only. External coauthors are not presented as NEXO staff.
 
 Profiles and portraits were checked on October 2, 2026. Photos are saved locally, unmodified; CSS fits them into the cards. Source photographs remain attributable to their original owners. The source links below make future corrections straightforward.
 
@@ -21,6 +21,6 @@ Profiles and portraits were checked on October 2, 2026. Photos are saved locally
 
 Peter’s current profile is at UC Santa Cruz; Benjamin’s personal site lists Calgary; Christian’s personal site lists an NBER postdoctoral position. Sébastien’s university profile and personal website list the University of Saskatchewan. Yoko’s current personal website lists Kyoto University; her portrait comes from her former Illinois academic profile.
 
-The three seeded applied projects are based on [Gustavo’s existing portfolio](https://gustavo1803.github.io/portfolio/): hospitality pricing, potato-price forecasting, and real estate pricing. Their descriptions explain scope without inventing results, dates, or current funding. They are classified as completed past portfolio work; adjust their status in the projects editor if appropriate. Hospitality uses a custom architectural illustration; project imagery is illustrative.
+The three seeded applied projects are based on Gustavo’s existing portfolio (archival source): hospitality pricing, potato-price forecasting, and real estate pricing. Their descriptions explain scope without inventing results, dates, or current funding. They are classified as completed past portfolio work; adjust their status in the projects editor if appropriate. Hospitality uses a custom architectural illustration; project imagery is illustrative.
 
 Gustavo confirmed that Alejandro Niño should be added from the older Spanish publications, and J. A. Chaparro Pesca should be omitted. Alejandro’s full name and coauthorship also appear in the [Económicas CUC article](https://revistascientificas.cuc.edu.co/economicascuc/article/download/4818/5375/54910). Gustavo supplied Alejandro’s official UCSB Geography profile, which now supplies his portrait, doctoral-student role, university affiliation, and public profile link.

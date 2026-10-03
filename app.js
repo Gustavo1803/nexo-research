@@ -20,7 +20,7 @@
   menu.addEventListener('click',()=>setMenu(menu.getAttribute('aria-expanded')!=='true'));
   nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>setMenu(false)));
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){setMenu(false);menu.focus();}});
-  window.matchMedia('(min-width: 1101px)').addEventListener('change',event=>{if(event.matches)setMenu(false);});
+  window.matchMedia('(min-width: 1281px)').addEventListener('change',event=>{if(event.matches)setMenu(false);});
   document.querySelectorAll('.language-switch a').forEach(link=>link.addEventListener('click',()=>{link.href=link.getAttribute('href').split(/[?#]/)[0]+location.search+location.hash;}));
   // Catalog entries are rendered after parsing, so honor links from area pages once they exist.
   document.addEventListener('DOMContentLoaded',()=>{
@@ -30,11 +30,10 @@
   });
   function element(tag, className, text) {const node=document.createElement(tag);if(className)node.className=className;if(text)node.textContent=text;return node;}
   const list=document.querySelector('#research-list');
-  if(list) items.forEach((item,index)=>{
+  if(list) items.forEach(item=>{
     const card=element('article','research-card research-item');
     card.id='paper-'+item.id;
     card.dataset.topics=(item.topics||[]).join(' ');card.dataset.status=item.status;card.dataset.id=item.id;
-    card.append(element('span','research-index',String(index+1).padStart(2,'0')));
     const body=element('div','research-item-body');
     const status=element('p','paper-type',ui.statuses[item.status]);
     if(local(item.note)&&local(item.note).toLowerCase()!==ui.statuses[item.status].toLowerCase())status.append(document.createTextNode(' · '+local(item.note)));
@@ -50,29 +49,46 @@
     if(!validURL(item.url)){const request=element('a','manuscript-link',item.status==='progress'?ui.discuss:ui.request);request.href=requestURL(local(item.title));actions.append(request);}
     card.append(actions);list.append(card);
   });
-  document.querySelectorAll('[data-status-count]').forEach(node=>{const status=node.dataset.statusCount;node.textContent=String(status==='all'?items.length:items.filter(item=>item.status===status).length);});
+  document.querySelectorAll('[data-status-count]').forEach(node=>{node.textContent=String(items.filter(item=>item.status===node.dataset.statusCount).length);});
   if(list){
-  const requestedTopic=new URLSearchParams(location.search).get('topic');
-  let topic=Object.hasOwn(ui.topics,requestedTopic)?requestedTopic:'all',status='all';
+  const params=new URLSearchParams(location.search),requestedTopic=params.get('topic'),requestedStatus=params.get('status');
+  function linkedPaper(){try{return location.hash.startsWith('#paper-')?papers.get(decodeURIComponent(location.hash.slice(7))):undefined;}catch{return undefined;}}
+  const initialPaper=linkedPaper();
+  let topic=initialPaper?'all':(Object.hasOwn(ui.topics,requestedTopic)?requestedTopic:'all');
+  let status=initialPaper?.status||(Object.hasOwn(ui.statuses,requestedStatus)?requestedStatus:'publication');
   const search=document.querySelector('#research-search');
+  search.value=initialPaper?'':(params.get('q')||'');
   const normalize=text=>text.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase(lang);
   function filterResearch(){
     const query=normalize(search.value.trim());let count=0;
     document.querySelectorAll('.research-item').forEach(card=>{
       const item=papers.get(card.dataset.id);
       const haystack=normalize([local(item.title),item.authors,local(item.summary),local(item.abstract),local(item.citation),...(item.topics||[]).map(key=>ui.topics[key])].join(' '));
-      const visible=(topic==='all'||(item.topics||[]).includes(topic))&&(status==='all'||item.status===status)&&(!query||haystack.includes(query));
+      const visible=(topic==='all'||(item.topics||[]).includes(topic))&&item.status===status&&(!query||haystack.includes(query));
       card.hidden=!visible;if(visible)count++;
     });
     document.querySelector('#research-count').textContent=ui.count(count);document.querySelector('#research-empty').hidden=count!==0;
+    const url=new URL(location.href);url.searchParams.set('status',status);
+    if(topic==='all')url.searchParams.delete('topic');else url.searchParams.set('topic',topic);
+    if(search.value.trim())url.searchParams.set('q',search.value.trim());else url.searchParams.delete('q');
+    const linked=linkedPaper();if(linked&&document.getElementById('paper-'+linked.id)?.hidden)url.hash='research';
+    history.replaceState(null,'',url);
   }
   function activate(selector,chosen){document.querySelectorAll(selector).forEach(button=>{const selected=button===chosen;button.classList.toggle('active',selected);button.setAttribute('aria-pressed',String(selected));});}
   document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{topic=button.dataset.filter;activate('[data-filter]',button);filterResearch();}));
   document.querySelectorAll('.status-filter').forEach(button=>button.addEventListener('click',()=>{status=button.dataset.status;activate('.status-filter',button);filterResearch();}));
   search.addEventListener('input',filterResearch);
-  document.querySelector('#reset-research').addEventListener('click',()=>{topic=status='all';search.value='';activate('[data-filter]',document.querySelector('[data-filter="all"]'));activate('.status-filter',document.querySelector('.status-filter[data-status="all"]'));filterResearch();});
-  if(topic!=='all')activate('[data-filter]',document.querySelector(`[data-filter="${topic}"]`));
+  document.querySelector('#reset-research').addEventListener('click',()=>{topic='all';search.value='';activate('[data-filter]',document.querySelector('[data-filter="all"]'));filterResearch();});
+  activate('[data-filter]',document.querySelector(`[data-filter="${topic}"]`));
+  activate('.status-filter',document.querySelector(`.status-filter[data-status="${status}"]`));
   filterResearch();
+  window.addEventListener('hashchange',()=>{
+    const item=linkedPaper();if(!item)return;
+    status=item.status;topic='all';search.value='';
+    activate('[data-filter]',document.querySelector('[data-filter="all"]'));
+    activate('.status-filter',document.querySelector(`.status-filter[data-status="${status}"]`));filterResearch();
+    document.fonts.ready.then(()=>document.getElementById('paper-'+item.id).scrollIntoView({block:'start',behavior:'instant'}));
+  });
   }
   const dialog=document.querySelector('#detail-dialog');let opener;
   function openDetail(content,source){

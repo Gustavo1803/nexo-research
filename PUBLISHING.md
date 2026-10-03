@@ -7,7 +7,7 @@ You can put this website online before purchasing a domain. The hosting service 
 This is a convenient route because you already have a GitHub website. Use the separate `nexo-research` repository for NEXO and keep the existing `Gustavo1803.github.io` repository intact.
 
 1. Sign into GitHub and create a **public** repository named `nexo-research`.
-2. In that repository, choose **Add file → Upload files**. Upload all eighteen public HTML pages (`index.html`, `es.html`, both versions of Research, Projects, Collaborators, Team, and the four research areas), `styles.css`, `app.js`, `pages.js`, `areas.js`, `research-data.js`, `projects-data.js`, `people-data.js`, `areas-data.js`, and the entire `assets` folder. Keep the HTML files at the repository root. The `manage-*.html` editors, `*-editor.js`, `research-editor.css`, and documentation are optional support files; they are not needed for the public website. Extract the ZIP first; uploading a ZIP alone does not deploy its contents. Do not upload `.preview/` or the ZIP itself.
+2. In that repository, choose **Add file → Upload files**. Upload all twenty public HTML pages (`index.html`, `es.html`, both versions of Research, Projects, Collaborators, Team, How do we work, and the four research areas), `sitemap.xml`, `styles.css`, `app.js`, `pages.js`, `areas.js`, `research-data.js`, `projects-data.js`, `people-data.js`, `areas-data.js`, and the entire `assets` folder. Keep the HTML files at the repository root. The `manage-*.html` editors, `*-editor.js`, `research-editor.css`, and documentation are optional support files; they are not needed for the public website. Extract the ZIP first; uploading a ZIP alone does not deploy its contents. Do not upload `.preview/` or the ZIP itself.
 3. Create `.nojekyll` at the repository root using **Add file → Create new file**. If GitHub requires file content, a short comment is fine.
 4. Commit the files to the `main` branch.
 5. Open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then **main** and **/ (root)**, and save.
@@ -15,7 +15,7 @@ This is a convenient route because you already have a GitHub website. Use the se
 
 GitHub Pages is available for public repositories on GitHub Free. Publication can take several minutes. See [GitHub’s Pages quickstart](https://docs.github.com/en/pages/quickstart).
 
-Test both languages on all nine pages, the menu, area links, news sources, research and project filters/search, paper links, coauthor profiles, photos, and email links on a phone and a computer. The paths in this website are relative, so the same files work on the project address and a later custom domain. Future updates use the editors described in `EDITING-CONTENT.md`; upload the downloaded data file and any new images or PDFs.
+Test both languages on all ten pages, the menu, area links, partnership page, news sources, research and project filters/search, paper links, coauthor profiles, photos, and email links on a phone and a computer. The paths in this website are relative, so the same files work on the project address and a later custom domain. Future updates use the editors described in `EDITING-CONTENT.md`; upload the downloaded data file and any new images or PDFs.
 
 ## 2. Buy a domain for NEXO
 

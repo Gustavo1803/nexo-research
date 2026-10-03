@@ -14,11 +14,12 @@ The site has responsive layouts, a mobile menu, research status and topic filter
 
 | File | Purpose |
 | --- | --- |
-| `index.html` / `es.html` | English / Spanish homepage overview, research areas, collaboration approach, and contact |
+| `index.html` / `es.html` | English / Spanish homepage overview, research areas, collaboration approach, student/career opportunities, and contact |
 | `research.html` / `research-es.html` | Complete research catalog and filters |
 | `projects.html` / `projects-es.html` | Applied projects, search, status filters, and details |
 | `collaborators.html` / `collaborators-es.html` | Coauthors with locally stored portraits and academic websites |
 | `team.html` / `team-es.html` | Current team: Gustavo, with support for adding teammates |
+| `how-we-work.html` / `how-we-work-es.html` | Research partnership approach, methods, shared benefits, and contact |
 | `transportation.html` / `transportation-es.html` | Transportation and mobility area |
 | `supply-chains.html` / `supply-chains-es.html` | Supply chains and resilience area |
 | `digital-economics.html` / `digital-economics-es.html` | Digital markets and economics area |
@@ -47,6 +48,8 @@ The site has responsive layouts, a mobile menu, research status and topic filter
 For publications, working papers, and work in progress, open **manage-research.html**, save the entry in the list, download **research-data.js**, and replace that file. For applied projects use **manage-projects.html** and **projects-data.js**. For teammates or coauthors use **manage-people.html** and **people-data.js**. Both languages update together. See **EDITING-RESEARCH.md** and **EDITING-CONTENT.md** for complete instructions.
 
 Other page text is edited in the corresponding English and Spanish HTML files. Area descriptions and sourced news are in `areas-data.js`; related research and projects come from the existing catalogs. See `EDITING-CONTENT.md` for area updates. To change the email, update **all** occurrences of `ge.nino183@uniandes.edu.co` in the pages, catalogs, and scripts. To change the group name, update the title, metadata, header, footer, and NEXO references in these documents. The favicon is a simple network motif, so it also works with a different name.
+
+The homepage Our team section introduces NEXO’s academic expertise and international research collaborations, followed by Gustavo’s name, director role, compact photo, and profile links. His full biography appears on Team and is edited through `manage-people.html` / `people-data.js`. Separate biography paragraphs with a blank line. Project descriptions and details are available within NEXO; visitor links do not point to the previous academic website.
 
 Colors are defined at the top of `styles.css`. The fonts are DM Sans and Libre Caslon Display; their licenses are included in `assets/`.
 

@@ -2,7 +2,7 @@
 
 Public address checked on October 2, 2026: https://gustavo1803.github.io/nexo-research/
 
-The local public pages now include individual canonical URLs, absolute English/Spanish alternate URLs, and search descriptions. `sitemap.xml` lists all 18 public pages. These local changes must be uploaded to GitHub before Google can use them. The editor pages are excluded from the sitemap and retain their noindex tags.
+The local public pages now include individual canonical URLs, absolute English/Spanish alternate URLs, and search descriptions. `sitemap.xml` lists all 20 public pages. These local changes must be uploaded to GitHub before Google can use them. The editor pages are excluded from the sitemap and retain their noindex tags.
 
 ## 1. Upload the update
 
