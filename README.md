@@ -1,6 +1,6 @@
-# NEXO Research Group — bilingual academic website pilot
+# NEXO Research Group — bilingual academic website
 
-A proposed identity for Gustavo Enrique Niño and his research collaborators at the Universidad de los Andes School of Management (Facultad de Administración), connecting transportation, supply chains, digital economics, and food trade. NEXO means “connection” in Spanish. The name is a suggestion, and domain availability has not been checked.
+NEXO Research Group is led by Gustavo Enrique Niño at the Universidad de los Andes School of Management (Facultad de Administración), connecting economic and business research in transportation, supply chains, digital economics, and food trade. NEXO means “connection” in Spanish.
 
 ## Preview
 
@@ -14,7 +14,7 @@ The site has responsive layouts, a mobile menu, research status and topic filter
 
 | File | Purpose |
 | --- | --- |
-| `index.html` / `es.html` | English / Spanish homepage overview, featured paper, and contact |
+| `index.html` / `es.html` | English / Spanish homepage overview, research areas, collaboration approach, and contact |
 | `research.html` / `research-es.html` | Complete research catalog and filters |
 | `projects.html` / `projects-es.html` | Applied projects, search, status filters, and details |
 | `collaborators.html` / `collaborators-es.html` | Coauthors with locally stored portraits and academic websites |
@@ -50,10 +50,10 @@ Other page text is edited in the corresponding English and Spanish HTML files. A
 
 Colors are defined at the top of `styles.css`. The fonts are DM Sans and Libre Caslon Display; their licenses are included in `assets/`.
 
-The curriculum vitae links open `assets/Resume_and_CV.pdf`, an identical copy of the supplied `Resume_and_CV.pdf` in the website folder. Replace the PDF in `assets/` to update Gustavo’s CV and include it when uploading the site. The existing academic site remains the destination for the full publication list. This pilot does not change that site or publish anything to GitHub.
+The curriculum vitae links open `assets/Resume_and_CV.pdf`, an identical copy of the supplied `Resume_and_CV.pdf` in the website folder. Replace the PDF in `assets/` to update Gustavo’s CV and include it when uploading the site. Local edits must be uploaded to GitHub to update the published website.
 
 ## What to finalize
 
-Choose the group name, check final publication status and complete author lists, and add the group’s actual members. The current appointment and institutional email were checked against the Uniandes faculty directory. The site uses the supplied affiliation and existing research; it does not invent clients, team members, impact metrics, or testimonials.
+Check final publication status and complete author lists, and add the group’s actual members as the team grows. The current appointment and institutional email were checked against the Uniandes faculty directory. The site uses the supplied affiliation and existing research; it does not invent clients, team members, impact metrics, or testimonials.
 
 The current canonical URLs, language alternates, social sharing URLs, and sitemap use `https://gustavo1803.github.io/nexo-research/`. When the final domain is known, update all of these to that address. Hosting and domain steps are in `PUBLISHING.md`; Google Search Console instructions are in `GOOGLE-SEARCH.md`.

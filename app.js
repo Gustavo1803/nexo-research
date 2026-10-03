@@ -2,8 +2,8 @@
   'use strict';
   const lang = document.documentElement.lang === 'es' ? 'es' : 'en';
   const ui = {
-    en: {menu:'Menu',close:'Close',statuses:{publication:'Publication',working:'Working paper',progress:'Work in progress',outreach:'Outreach'},topics:{transportation:'Transportation',supply:'Supply chains',digital:'Digital economics',food:'Food & trade'},overview:'Abstract & details',read:'Read the paper',outreach:'Read the article',request:'Request the manuscript',discuss:'Discuss the project',collaborate:'Discuss a collaboration',expertise:'Research areas / Academic collaboration',subject:'Research inquiry: ',count:n=>`${n} ${n===1?'work':'works'}`,featured:'IN FOCUS / '},
-    es: {menu:'Menú',close:'Cerrar',statuses:{publication:'Publicación',working:'Documento de trabajo',progress:'Trabajo en curso',outreach:'Divulgación'},topics:{transportation:'Transporte',supply:'Cadenas de suministro',digital:'Economía digital',food:'Alimentos y comercio'},overview:'Resumen y detalles',read:'Leer el documento',outreach:'Leer el artículo',request:'Solicitar el manuscrito',discuss:'Conversar sobre el proyecto',collaborate:'Proponer una colaboración',expertise:'Áreas de investigación / Colaboración académica',subject:'Consulta de investigación: ',count:n=>`${n} ${n===1?'trabajo':'trabajos'}`,featured:'DESTACADO / '}
+    en: {menu:'Menu',close:'Close',statuses:{publication:'Publication',working:'Working paper',progress:'Work in progress',outreach:'Outreach'},topics:{transportation:'Transportation',supply:'Supply chains',digital:'Digital economics',food:'Food & trade'},overview:'Abstract & details',read:'Read the paper',outreach:'Read the article',request:'Request the manuscript',discuss:'Discuss the project',collaborate:'Discuss a collaboration',expertise:'Research areas / Academic collaboration',subject:'Research inquiry: ',count:n=>`${n} ${n===1?'work':'works'}`},
+    es: {menu:'Menú',close:'Cerrar',statuses:{publication:'Publicación',working:'Documento de trabajo',progress:'Trabajo en curso',outreach:'Divulgación'},topics:{transportation:'Transporte',supply:'Cadenas de suministro',digital:'Economía digital',food:'Alimentos y comercio'},overview:'Resumen y detalles',read:'Leer el documento',outreach:'Leer el artículo',request:'Solicitar el manuscrito',discuss:'Conversar sobre el proyecto',collaborate:'Proponer una colaboración',expertise:'Áreas de investigación / Colaboración académica',subject:'Consulta de investigación: ',count:n=>`${n} ${n===1?'trabajo':'trabajos'}`}
   }[lang];
   const data = window.NEXO_RESEARCH || {items:[],email:'ge.nino183@uniandes.edu.co'};
   const local = value => typeof value === 'string' ? value : (value?.[lang] || value?.en || '');
@@ -51,8 +51,6 @@
     card.append(actions);list.append(card);
   });
   document.querySelectorAll('[data-status-count]').forEach(node=>{const status=node.dataset.statusCount;node.textContent=String(status==='all'?items.length:items.filter(item=>item.status===status).length);});
-  const featured=papers.get('freight');
-  if(document.querySelector('.featured')){if(featured){document.querySelector('.featured-paper').textContent=local(featured.title);document.querySelector('.featured-content .eyebrow').textContent=ui.featured+ui.statuses[featured.status].toLocaleUpperCase(lang);}else{document.querySelector('.featured').hidden=true;}}
   if(list){
   const requestedTopic=new URLSearchParams(location.search).get('topic');
   let topic=Object.hasOwn(ui.topics,requestedTopic)?requestedTopic:'all',status='all';

@@ -1,10 +1,10 @@
-# Publish the pilot, then connect your domain
+# Publish the NEXO website, then connect your domain
 
 You can put this website online before purchasing a domain. The hosting service stores the website files; the domain is the address visitors type. Purchasing an address does not require rebuilding the website.
 
-## 1. Publish a separate pilot on GitHub Pages
+## 1. Publish the website on GitHub Pages
 
-This is a convenient route because you already have a GitHub website. Keep the existing `Gustavo1803.github.io` repository intact while reviewing the pilot.
+This is a convenient route because you already have a GitHub website. Use the separate `nexo-research` repository for NEXO and keep the existing `Gustavo1803.github.io` repository intact.
 
 1. Sign into GitHub and create a **public** repository named `nexo-research`.
 2. In that repository, choose **Add file → Upload files**. Upload all eighteen public HTML pages (`index.html`, `es.html`, both versions of Research, Projects, Collaborators, Team, and the four research areas), `styles.css`, `app.js`, `pages.js`, `areas.js`, `research-data.js`, `projects-data.js`, `people-data.js`, `areas-data.js`, and the entire `assets` folder. Keep the HTML files at the repository root. The `manage-*.html` editors, `*-editor.js`, `research-editor.css`, and documentation are optional support files; they are not needed for the public website. Extract the ZIP first; uploading a ZIP alone does not deploy its contents. Do not upload `.preview/` or the ZIP itself.
@@ -15,13 +15,13 @@ This is a convenient route because you already have a GitHub website. Keep the e
 
 GitHub Pages is available for public repositories on GitHub Free. Publication can take several minutes. See [GitHub’s Pages quickstart](https://docs.github.com/en/pages/quickstart).
 
-Test both languages on all nine pages, the menu, area links, news sources, research and project filters/search, paper links, coauthor profiles, photos, and email links on a phone and a computer. The paths in this pilot are relative, so the same files work on the project address and a later custom domain. Future updates use the editors described in `EDITING-CONTENT.md`; upload the downloaded data file and any new images or PDFs.
+Test both languages on all nine pages, the menu, area links, news sources, research and project filters/search, paper links, coauthor profiles, photos, and email links on a phone and a computer. The paths in this website are relative, so the same files work on the project address and a later custom domain. Future updates use the editors described in `EDITING-CONTENT.md`; upload the downloaded data file and any new images or PDFs.
 
-## 2. Buy a domain when the name is settled
+## 2. Buy a domain for NEXO
 
 Choose an address that is easy to spell and works for your group’s long-term identity. Domain availability and prices should be checked at purchase time. The registrar is the company selling the address; its DNS settings connect that address to your hosting service.
 
-You can use any registrar that lets you edit DNS records. No particular registrar or domain purchase is required to preview the pilot.
+You can use any registrar that lets you edit DNS records. No particular registrar or domain purchase is required to publish the website on GitHub Pages.
 
 ## 3. Verify ownership
 
@@ -52,6 +52,6 @@ These records and steps follow [GitHub’s custom-domain documentation](https://
 
 Update files in the repository and commit; GitHub Pages republishes them. Keep the local originals and a copy of the `CNAME` file once it exists. Confirm that both the main address and `www` reach the site over HTTPS.
 
-Before the public launch, remove the pilot wording in the footer and confirm the content items in `CONTENT-NOTES.md`. When connecting the final domain, update the canonical URLs, language alternates, sharing URLs, and `sitemap.xml` to use that domain. Google Search Console steps are in `GOOGLE-SEARCH.md`. You can keep the existing academic website online so its publication and CV links continue to work.
+Review the content items in `CONTENT-NOTES.md` when maintaining the website. When connecting the final domain, update the canonical URLs, language alternates, sharing URLs, and `sitemap.xml` to use that domain. Google Search Console steps are in `GOOGLE-SEARCH.md`. You can keep the existing academic website online so its publication and CV links continue to work.
 
-Custom-domain email, such as `gustavo@yourdomain.com`, is a separate service. The pilot currently uses your Uniandes email. If you change it, update the pages, research catalog, and scripts as described in `README.md`.
+Custom-domain email, such as `gustavo@yourdomain.com`, is a separate service. The website currently uses your Uniandes email. If you change it, update the pages, research catalog, and scripts as described in `README.md`.

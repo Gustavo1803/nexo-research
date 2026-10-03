@@ -92,6 +92,7 @@ body{font-size:var(--reading-size)}
 @media(max-width:800px){.hero-description{max-width:68%}.people{gap:32px}.section-intro,.approach-heading>p{max-width:600px}.area-work>.text-link{font-size:13px}}
 @media(max-width:600px){.expertise-grid{grid-template-columns:1fr}.expertise-card{padding:28px;border-right:1px solid var(--border)}.expertise-card:nth-child(n+2){border-top:0}.expertise-card h3{font-size:34px}.expertise-card p{max-width:440px}.hero-description{max-width:100%}.hero-actions{gap:20px}.hero-actions .button{gap:20px}.hero-actions .text-link{gap:12px}.people{gap:32px}.photo-caption>span{font-size:10px}.contact-action .button{font-size:14px}.contact-email{font-size:16px}.people-content>p.academic-role{font-size:15px}.team-directory .person-body>.eyebrow{font-size:14px}.language-switch{font-size:11px}.news-card .eyebrow{font-size:10px}}
 @media(max-width:360px){.hero-actions{align-items:flex-start;flex-direction:column}.expertise-card{padding:24px}.people-content>p.people-lead{font-size:20px}}
+.approach-grid h3{margin-top:0}
 .institution-copy>a>span,.institution-area{font-size:18px}
 .institution-area{max-width:min(350px,100%);line-height:1.6}
 @media(max-width:800px){.institution-copy>a>span,.institution-area{font-size:17px}}

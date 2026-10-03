@@ -10,9 +10,9 @@ Sources include [UNCTAD’s September WTO forum briefing](https://unctad.org/new
 
 News is curated in `areas-data.js`, not automatically refreshed. The digital-area hero uses a custom SVG network illustration. Existing city, port, and agriculture photographs remain illustrative images for the other areas.
 
-## Proposed identity
+## Group identity
 
-**NEXO Research Group / Grupo de Investigación NEXO** is the working name for the more academic bilingual pilot. It reflects connections between markets, mobility, supply chains, and food trade. The earlier consultancy-oriented pilot used “NEXO Research & Advisory.” No domain availability or trademark search was performed.
+**NEXO Research Group / Grupo de Investigación NEXO** is the group name confirmed by Gustavo. It reflects connections between markets, mobility, supply chains, and food trade, with a focus on economic and business research.
 
 ## Profile
 
@@ -29,7 +29,7 @@ Specific research sources:
 - [Food Policy publisher link](https://www.sciencedirect.com/science/article/pii/S0306919226000187)
 - [Cut-flower trade perspective](https://farmdocdaily.illinois.edu/2025/02/valentines-day-and-the-gains-from-agricultural-trade-cut-flowers-in-the-us.html)
 
-The freight and mobility document links were copied from the existing publication page. Their remote access permissions have not been independently confirmed. Some publisher/outreach pages could not be fetched during research, so the pilot uses only the titles and citation details on the existing publication list for those items.
+The freight and mobility document links were copied from the existing publication page. Their remote access permissions have not been independently confirmed. Some publisher/outreach pages could not be fetched during research, so the website uses only the titles and citation details on the existing publication list for those items.
 
 Research-area descriptions are based on the supplied topics and profile. Add actual group members and their approved biographies when available. Original academic titles are preserved in both language versions; surrounding content, descriptions, filters, controls, and detail dialogs are translated.
 
@@ -39,18 +39,16 @@ Research-area descriptions are based on the supplied topics and profile. Add act
 - `assets/port.jpg`: [Unsplash source image](https://images.unsplash.com/photo-1494412519320-aa613dfb7738). A freight-terminal photograph, used as illustrative imagery.
 - `assets/city.jpg`: [Unsplash source image](https://images.unsplash.com/photo-1519501025264-65ba15a82390). A city photograph, used as illustrative imagery rather than a depiction of the experiment location.
 - `assets/agriculture.jpg`: [Unsplash source image](https://images.unsplash.com/photo-1500382017468-9049fed747ef). A rural landscape, used as illustrative imagery rather than research-site evidence.
-- The photographs are downloaded locally from Unsplash; see the [Unsplash license](https://unsplash.com/license). The network motif and icons are original SVG geometry written for this pilot.
+- The photographs are downloaded locally from Unsplash; see the [Unsplash license](https://unsplash.com/license). The network motif and icons are original SVG geometry written for this website.
 - DM Sans and Libre Caslon Display are from [Google Fonts](https://fonts.google.com/). Their SIL Open Font License files are included with the fonts.
 
-Design references: [McKinsey](https://www.mckinsey.com/) and [Bates White](https://www.bateswhite.com/). The pilot uses an original layout and identity with consultancy-style editorial hierarchy, rather than their logos, copy, or site assets.
+Design references: [McKinsey](https://www.mckinsey.com/) and [Bates White](https://www.bateswhite.com/). The website uses an original layout and identity with consultancy-style editorial hierarchy, rather than their logos, copy, or site assets.
 
 ## Final launch content
 
-- Confirm the final group name.
 - Supply actual group members and approved photos.
 - Confirm article status, coauthor names, and access to linked documents.
 - Add the final domain and social sharing image metadata.
-- Replace the footer’s pilot wording.
 
 There is no contact-form backend, analytics, newsletter subscription, or database. The local form editor prepares a replacement `research-data.js` file; it does not publish directly or require an account. Email buttons open the visitor’s email application.
 # University affiliation logo

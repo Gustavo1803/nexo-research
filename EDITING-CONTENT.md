@@ -37,7 +37,7 @@ Projects also accept a local image, such as `assets/city.jpg`, and a local repor
 
 ## En español
 
-Cada sección tiene su propia página en inglés y español. La página principal presenta un panorama del grupo y un documento destacado; la lista completa está en **Investigación**.
+Cada sección tiene su propia página en inglés y español. La página principal presenta un panorama del grupo, sus áreas de investigación y su enfoque de colaboración; la lista completa de trabajos está en **Investigación**.
 
 Abre el editor correspondiente en la tabla. Edita la ficha, completa los campos en ambos idiomas, selecciona **Guardar en la lista**, y luego **Descargar archivo actualizado**. Reemplaza el archivo indicado en la carpeta del sitio y recarga las páginas. Si el navegador cambia el nombre, elimina el sufijo `(1)`. Para publicar, reemplaza ese mismo archivo en GitHub.
 

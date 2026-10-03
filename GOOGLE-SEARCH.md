@@ -6,7 +6,7 @@ The local public pages now include individual canonical URLs, absolute English/S
 
 ## 1. Upload the update
 
-Extract the latest `NEXO-pilot.zip` and upload its contents to the existing `nexo-research` repository. Keep `index.html`, the other HTML files, and `sitemap.xml` at the repository root, with the complete `assets/` folder alongside them. Commit the changes and wait for GitHub Pages to publish.
+Extract the latest `NEXO-website.zip` and upload its contents to the existing `nexo-research` repository. Keep `index.html`, the other HTML files, and `sitemap.xml` at the repository root, with the complete `assets/` folder alongside them. Commit the changes and wait for GitHub Pages to publish.
 
 Open https://gustavo1803.github.io/nexo-research/sitemap.xml to confirm that the sitemap is available. It should display XML containing the public page addresses.
 
