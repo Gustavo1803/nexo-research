@@ -16,7 +16,9 @@ window.NEXO_PEOPLE = {
         "es": "Gustavo investiga transporte, cadenas de suministro, mercados digitales y comercio de alimentos. Tiene un Ph.D. en Economía Aplicada y una maestría en Estadística de la University of Illinois Urbana-Champaign. Su trabajo combina inferencia causal, experimentos de campo y ciencia de datos computacional."
       },
       "image": "assets/gustavo.jpg",
-      "url": "https://gustavo1803.github.io/",
+      "url": "https://administracion.uniandes.edu.co/profesor/gustavo-enrique-nino-chaparro/",
+      "linkedin": "https://www.linkedin.com/in/genino2",
+      "scholar": "https://scholar.google.com/citations?user=8LasFtMAAAAJ&hl=en",
       "cv": "assets/Resume_and_CV.pdf"
     },
     {

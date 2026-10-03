@@ -27,7 +27,7 @@ Related research is selected from **research-data.js** by its topic; up to three
 
 ## Add a teammate
 
-Open `manage-people.html`, select **Agregar una persona**, and choose **Equipo**. Add their name, institution, role in both languages, biography, website, and optional CV. For an external coauthor choose **Colaborador**. Team currently contains only Gustavo.
+Open `manage-people.html`, select **Agregar una persona**, and choose **Equipo**. Add their name, institution, role in both languages, biography, website, and optional CV, LinkedIn, and Google Scholar links. For an external coauthor choose **Colaborador**. Team currently contains only Gustavo. Gustavo’s academic-profile link opens his Universidad de los Andes faculty profile.
 
 Put a new portrait in `assets/people/` (for example `assets/people/maria.jpg`) and enter that exact path in the form. Upload the photo along with `people-data.js`. If the photo is blank, the site displays the person’s initials. Use JPG, PNG, WEBP, or SVG. External website and CV links must use `https://` or `http://`. The CV field also accepts a local PDF filename, such as `Resume_and_CV.pdf`, or a PDF under `assets/`, such as `assets/people/maria-cv.pdf`.
 

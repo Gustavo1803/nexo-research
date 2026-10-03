@@ -52,6 +52,6 @@ These records and steps follow [GitHub’s custom-domain documentation](https://
 
 Update files in the repository and commit; GitHub Pages republishes them. Keep the local originals and a copy of the `CNAME` file once it exists. Confirm that both the main address and `www` reach the site over HTTPS.
 
-Before the public launch, remove the pilot wording in the footer, confirm the content items in `CONTENT-NOTES.md`, and add the final domain to the sharing metadata. You can keep the existing academic website online so its publication and CV links continue to work.
+Before the public launch, remove the pilot wording in the footer and confirm the content items in `CONTENT-NOTES.md`. When connecting the final domain, update the canonical URLs, language alternates, sharing URLs, and `sitemap.xml` to use that domain. Google Search Console steps are in `GOOGLE-SEARCH.md`. You can keep the existing academic website online so its publication and CV links continue to work.
 
 Custom-domain email, such as `gustavo@yourdomain.com`, is a separate service. The pilot currently uses your Uniandes email. If you change it, update the pages, research catalog, and scripts as described in `README.md`.

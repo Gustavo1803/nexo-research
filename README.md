@@ -36,6 +36,7 @@ The site has responsive layouts, a mobile menu, research status and topic filter
 | `.nojekyll` | Tells GitHub Pages to serve the static files directly |
 | `preview.ps1` | Optional local Windows preview server |
 | `PUBLISHING.md` | Instructions for hosting and adding a purchased domain |
+| `sitemap.xml` / `GOOGLE-SEARCH.md` | Public page addresses and instructions for Google Search Console |
 | `CONTENT-NOTES.md` | Sources and content to confirm for the final version |
 | `EDITING-RESEARCH.md` | English and Spanish instructions for updating the research catalog |
 | `EDITING-CONTENT.md` | English and Spanish instructions for projects, collaborators, and team |
@@ -55,4 +56,4 @@ The curriculum vitae links open `assets/Resume_and_CV.pdf`, an identical copy of
 
 Choose the group name, check final publication status and complete author lists, and add the group’s actual members. The current appointment and institutional email were checked against the Uniandes faculty directory. The site uses the supplied affiliation and existing research; it does not invent clients, team members, impact metrics, or testimonials.
 
-Once the final domain is known, add its absolute URL to the social sharing metadata and create a sitemap for that address. Hosting and domain steps are in `PUBLISHING.md`.
+The current canonical URLs, language alternates, social sharing URLs, and sitemap use `https://gustavo1803.github.io/nexo-research/`. When the final domain is known, update all of these to that address. Hosting and domain steps are in `PUBLISHING.md`; Google Search Console instructions are in `GOOGLE-SEARCH.md`.

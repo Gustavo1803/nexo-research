@@ -16,7 +16,9 @@ News is curated in `areas-data.js`, not automatically refreshed. The digital-are
 
 ## Profile
 
-The degrees, methods, portrait, and social profile links come from [Gustavo’s existing website](https://gustavo1803.github.io/). The Assistant Professor title, Supply Chain Management & Technology area, and `ge.nino183@uniandes.edu.co` email were checked against the [Uniandes academic-area directory](https://administracion.uniandes.edu.co/en/faculty/academic-areas/supply-chain-management-technology/) and [faculty directory](https://administracion.uniandes.edu.co/profesores/). The university affiliation is also explicitly requested by the user. It appears in both language versions; no official university logo is reproduced.
+The degrees, methods, portrait, and social profile links come from [Gustavo’s existing website](https://gustavo1803.github.io/). The Assistant Professor title, Supply Chain Management & Technology area, and `ge.nino183@uniandes.edu.co` email were checked against the [Uniandes academic-area directory](https://administracion.uniandes.edu.co/en/faculty/academic-areas/supply-chain-management-technology/) and [faculty directory](https://administracion.uniandes.edu.co/profesores/). The university affiliation is also explicitly requested by the user and appears in both language versions. The official university logo source is documented above.
+
+Gustavo’s academic-profile link now points to his [Universidad de los Andes faculty profile](https://administracion.uniandes.edu.co/profesor/gustavo-enrique-nino-chaparro/), verified on October 2, 2026. His homepage and Team entry also link to the existing LinkedIn and Google Scholar profiles, and the supplied local CV PDF.
 
 The research collection, including working papers and projects in progress, comes from [the existing publication list](https://gustavo1803.github.io/publications/). The mobility paper is labeled accepted, as that page states. Confirm the final publication status, complete author lists, and citations before launch. A work in progress is not described as a completed publication and has an email action when there is no public manuscript.
 
