@@ -252,7 +252,7 @@ window.NEXO_RESEARCH = {
       "id": "paper-85d125f0-2560-4f03-a594-378f02ccfd29",
       "title": "Beyond Geographic Proximity: Effective Distance and Agricultural Trade in Colombia",
       "titleLanguage": "en",
-      "status": "progress",
+      "status": "working",
       "authors": "Gustavo Enrique Niño, Dohyeong Choi, Taejun Mo, William Ridley",
       "citation": "",
       "note": {
