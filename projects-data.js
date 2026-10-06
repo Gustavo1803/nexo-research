@@ -1,4 +1,4 @@
-/* Shared content for the English and Spanish pages. Edit with the local editor. */
+/* Shared project catalog for both language versions. */
 window.NEXO_PROJECTS = {
   "email": "ge.nino183@uniandes.edu.co",
   "items": [
@@ -10,7 +10,7 @@ window.NEXO_PROJECTS = {
         "es": "Precios y experiencia del huésped"
       },
       "authors": "Gustavo Enrique Niño",
-      "citation": "La Nola · Colombia",
+      "citation": "Colombia - Partner: La Nola",
       "titleLanguage": "en",
       "note": {
         "en": "Applied project",
@@ -42,7 +42,7 @@ window.NEXO_PROJECTS = {
         "es": "Predicción de precios de la papa"
       },
       "authors": "Gustavo Enrique Niño",
-      "citation": "Colombia",
+      "citation": "Colombia - Partner: Tu Agro",
       "titleLanguage": "en",
       "note": {
         "en": "Applied project",
@@ -81,7 +81,7 @@ window.NEXO_PROJECTS = {
         "es": "Proyecto aplicado"
       },
       "topics": [
-        "transportation"
+        "digital"
       ],
       "summary": {
         "en": "A hedonic analysis of real estate prices across three Colombian cities, studying the relationship between property characteristics and market values.",
